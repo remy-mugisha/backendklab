@@ -2,21 +2,26 @@
 const mongoose = require('mongoose');
 const realEstateSchema = new mongoose.Schema({
     title:{
-        type:String
+        type:String,
+        required:true
     },
     location:{
         province:{
-            type:String
+            type:String,
+            required:true
         },
         district:{
-            type:String
+            type:String,
+            required:true
         },
         street:{
-            type:String
+            type:String,
+            required:true
         }
     },
     price:{
-        type:String
+        type:String,
+        required:true
     },
     YearBuilt:{
         type:Date,

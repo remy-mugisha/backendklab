@@ -19,7 +19,7 @@ const options = {
         description: 'Development server',
       },
       {
-        url: 'https://klab-api.onrender.com/api-docs/',
+        url: 'https://expensive-jade-pants.cyclic.app/',
         description: 'Production server',
       },
     ],
