@@ -4,7 +4,7 @@ const cors = require('cors');
 // const authRoute=require('./routes/auth');
 const userRoute=require('./routes/user');
 const postRoute=require('./routes/post');
-const catRoute=require('./routes/category');
+// const catRoute=require('./routes/category');
 const messageRoute=require('./routes/message');
 const estateRoute=require('./routes/realEstate')
 const swaggerDocs = require('./swagger/swagger-doc');
@@ -22,7 +22,7 @@ dbConnect();
 app.use('/api/user',userRoute);
 app.use('/api/blog',postRoute);
 app.use('/api/estate',estateRoute);
-app.use('/api/categories',catRoute)
+// app.use('/api/categories',catRoute)
 app.use('/api/messages',messageRoute);
 
 app.listen(port,()=>{
