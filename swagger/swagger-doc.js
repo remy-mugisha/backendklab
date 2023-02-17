@@ -19,7 +19,7 @@ const options = {
         description: 'Development server',
       },
       {
-        url: 'https://documentation-gt6q.onrender.com/api-docs/',
+        url: 'https://documentation-gt6q.onrender.com',
         description: 'Production server',
       },
     ],
