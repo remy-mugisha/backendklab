@@ -9,7 +9,7 @@ const cloudinary = require ("../cloudinary/cloudinary");
           res.status(404).json({status:"error",error:error.message});
         }
       }
-
+v
     exports.getBlog = async(req,res)=>{
         try {
             const blog = await Blog.findById(req.params.id);
